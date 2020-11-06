@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 562.0, 600.0, 1054.0, 765.0 ],
+		"rect" : [ 554.0, 370.0, 1054.0, 765.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,216 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"arrows" : 1,
+					"border" : 5.0,
+					"id" : "obj-44",
+					"justification" : 3,
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 274.0, 3469.0, 75.0, 44.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 16.0,
+					"id" : "obj-43",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 248.0, 3507.0, 262.5, 60.0 ],
+					"presentation_linecount" : 2,
+					"text" : "Note: third outlet emits a bang when the maxiumum is hit. Useful if you only care about the nth input",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 16.0,
+					"id" : "obj-42",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 291.25, 3396.5, 391.5, 60.0 ],
+					"presentation_linecount" : 3,
+					"text" : "counter object: use bangs to keep count\nNote: 1 is minimum, 5 is maximum. It will restart once the maximum is hit.",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-41",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 248.0, 3452.5, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-39",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 169.0, 3450.0, 64.0, 29.0 ],
+					"text" : "2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-36",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 169.0, 3361.0, 41.0, 41.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-34",
+					"maxclass" : "newobj",
+					"numinlets" : 5,
+					"numoutlets" : 4,
+					"outlettype" : [ "int", "", "", "int" ],
+					"patching_rect" : [ 169.0, 3412.0, 99.0, 29.0 ],
+					"text" : "counter 1 5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "slider",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 169.0, 3201.0, 382.0, 47.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 16.0,
+					"id" : "obj-13",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 318.25, 3157.0, 391.5, 24.0 ],
+					"text" : "slide object: smooth output! great for noisy input.",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "slider",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 169.0, 3099.0, 382.0, 47.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 169.0, 3157.0, 116.0, 29.0 ],
+					"text" : "slide 100 100"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 16.0,
+					"id" : "obj-11",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 253.25, 2810.0, 467.5, 42.0 ],
+					"presentation_linecount" : 2,
+					"text" : "scale object: handle range conversions without having to do the math. Just provide input-low, input-high, output-low, output-high",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-10",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 177.5, 2940.0, 64.0, 29.0 ],
+					"text" : "1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "slider",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 169.25, 2748.0, 20.0, 140.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 169.25, 2899.0, 141.0, 29.0 ],
+					"text" : "scale 0 127 0. 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 20.0,
+					"id" : "obj-4",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 339.5, 2695.0, 309.0, 29.0 ],
+					"text" : "Bonus Number Tools",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontface" : 1,
 					"fontsize" : 18.0,
 					"id" : "obj-150",
@@ -48,7 +258,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 107.0, 1496.0, 460.0, 67.0 ],
-					"presentation_linecount" : 3,
 					"text" : "My advice: Pick a range and stick with it. Try to get each \"module\" within your patch to use your range for both input and output.",
 					"textjustification" : 1
 				}
@@ -96,7 +305,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 490.25, 2205.0, 183.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "try splicing one of these into the red patch cable!"
 				}
 
@@ -133,7 +341,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 440.75, 2408.0, 276.0, 33.0 ],
-					"presentation_linecount" : 4,
 					"text" : "convert elements back to range 0-127, because that's what this table accepts"
 				}
 
@@ -146,7 +353,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 374.5, 2253.0, 150.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Pack into list of two elements (x, y)"
 				}
 
@@ -207,7 +413,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 463.5, 2012.0, 150.0, 60.0 ],
-					"text" : "outputs every number between 0 and 127 over the course of 3000 mililseconds"
+					"text" : "outputs every number between 0 and 127 over a duration of 3000 mililseconds."
 				}
 
 			}
@@ -260,7 +466,7 @@
 					"patching_rect" : [ 273.5, 2459.0, 458.0, 134.0 ],
 					"range" : 128,
 					"size" : 128,
-					"table_data" : [ 0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127 ]
+					"table_data" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
 				}
 
 			}
@@ -320,8 +526,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 136.5, 1732.5, 422.0, 203.0 ],
-					"presentation_linecount" : 11,
+					"patching_rect" : [ 136.5, 1732.5, 425.0, 203.0 ],
 					"text" : "Advantages:\n\n1. Easier to reason about/perform mental math. The range is \"all the way off\" to \"all the way on\".\n\n2. Multiply by 100 and you have a percentage!\n\n3. No loss of precision, since you convert each value into its most precise form before sending it out.\n\n4. Can easily scale values in more interesting ways."
 				}
 
@@ -335,7 +540,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 107.0, 1607.5, 467.5, 96.0 ],
-					"presentation_linecount" : 6,
 					"text" : "\nIt's tempting to choose 0-127 or 0-255 as your default range. Many protocols/objects use these!\n\nBut consider instead the range 0.0-1.0 (Note the decimal points)",
 					"textjustification" : 1
 				}
@@ -386,7 +590,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 104.5, 1106.5, 422.0, 60.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Possible solution: do the math yourself!\nIf we simply multiply the output of each slider by 2, the effective range becomes 0-254 (close enough)",
 					"textjustification" : 1
 				}
@@ -402,7 +605,7 @@
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 400.5, 1269.0, 172.0, 108.0 ],
-					"saturation" : 0
+					"saturation" : 73
 				}
 
 			}
@@ -465,7 +668,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 274.5, 683.0, 50.0, 22.0 ],
-					"text" : "127"
+					"text" : "0"
 				}
 
 			}
@@ -491,7 +694,7 @@
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 404.5, 868.0, 172.0, 108.0 ],
-					"saturation" : 80
+					"saturation" : 136
 				}
 
 			}
@@ -542,7 +745,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 104.5, 723.5, 422.0, 96.0 ],
-					"presentation_linecount" : 5,
 					"text" : "But color values (red, green, and blue components) have a range of 0-255\n\nNote that you can't hit every color with default sliders! Brightest colors are unreachable.",
 					"textjustification" : 1
 				}
@@ -570,7 +772,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 104.5, 474.5, 422.0, 42.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Example:\nSlider defaults to an ouput range of 0-127",
 					"textjustification" : 1
 				}
@@ -586,7 +787,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 68.5, 380.5, 512.0, 67.0 ],
-					"presentation_linecount" : 5,
 					"text" : "Like it or not, this means that everything speaks the same language. If you can get quick/comfortable with relatively basic arithmetic, you will be able to connect everything.",
 					"textjustification" : 1
 				}
@@ -602,8 +802,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 113.5, 213.5, 422.0, 114.0 ],
 					"presentation_linecount" : 6,
-					"text" : "Things represented by numbers that may be new to you:\n\n1. Color\n2. Time (in milliseconds)\n3. Controller values\n4. Audio / other signals",
-					"textjustification" : 0
+					"text" : "Things represented by numbers that may be new to you:\n\n1. Color\n2. Millisecond time\n3. Controller values (including keyboard input!)\n4. Audio / other signals"
 				}
 
 			}
@@ -674,6 +873,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 1 ],
 					"source" : [ "obj-21", 0 ]
 				}
@@ -731,8 +944,43 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-39", 1 ],
+					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"source" : [ "obj-34", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-65", 0 ],
 					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 1 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -775,6 +1023,14 @@
 
 			}
  ],
+		"parameters" : 		{
+			"parameterbanks" : 			{
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}

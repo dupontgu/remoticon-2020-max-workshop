@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 827.0, 179.0, 962.0, 916.0 ],
+		"rect" : [ 34.0, 79.0, 1372.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -208,7 +208,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 233.0, 310.5, 141.75, 24.0 ],
+					"patching_rect" : [ 503.0, 350.5, 141.75, 24.0 ],
 					"text" : "slider object",
 					"textjustification" : 1
 				}
@@ -221,7 +221,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 229.0, 110.5, 237.75, 24.0 ],
+					"patching_rect" : [ 219.0, 110.5, 237.75, 24.0 ],
 					"text" : "toggle object -> On/Off switch",
 					"textjustification" : 1
 				}
@@ -234,8 +234,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 234.0, 38.0, 267.75, 24.0 ],
-					"text" : "bang object -> Momentary button",
+					"patching_rect" : [ 209.125, 38.0, 224.75, 24.0 ],
+					"text" : "bang object -> trigger button",
 					"textjustification" : 1
 				}
 

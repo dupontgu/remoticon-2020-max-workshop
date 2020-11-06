@@ -2,8 +2,8 @@
 	"name" : "Remoticon2020_Repo",
 	"version" : 1,
 	"creationdate" : 3685164722,
-	"modificationdate" : 3686980869,
-	"viewrect" : [ 71.0, 827.0, 300.0, 500.0 ],
+	"modificationdate" : 3687458245,
+	"viewrect" : [ 292.0, 820.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -50,10 +50,44 @@
 				"local" : 1
 			}
 ,
+			"10_Sound_Input.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"11_Video_Input.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"12_Twitch_Input.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"13_Networking.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"14_Keyboard_Output.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"15_Arduino_Output.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"XX_Scratch.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
+
+		}
+,
+		"code" : 		{
 
 		}
 

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 459.0, 235.0, 1453.0, 892.0 ],
+		"rect" : [ 34.0, 79.0, 1003.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -51,14 +51,14 @@
 					"restore" : 					{
 						"button" : [ 0.0 ],
 						"dial" : [ 64 ],
-						"dial[1]" : [ 47 ],
-						"dial[2]" : [ 102 ],
+						"dial[1]" : [ 29 ],
+						"dial[2]" : [ 101 ],
 						"textbutton" : [ -1 ],
 						"toggle" : [ 1 ]
 					}
 ,
 					"text" : "autopattr @autoname 1",
-					"varname" : "u849006820"
+					"varname" : "u201001109"
 				}
 
 			}
@@ -68,7 +68,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1030.5, 203.0, 150.0, 20.0 ],
+					"patching_rect" : [ 1028.5, 203.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 974.5, 195.0, 150.0, 20.0 ],
 					"text" : "Restart",
@@ -84,7 +84,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1059.0, 225.0, 93.0, 93.0 ],
+					"patching_rect" : [ 1057.0, 225.0, 93.0, 93.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1003.0, 217.0, 93.0, 93.0 ],
 					"varname" : "button"
@@ -111,7 +111,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 810.5, 102.0, 150.0, 20.0 ],
+					"patching_rect" : [ 816.5, 102.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 755.5, 101.0, 150.0, 20.0 ],
 					"text" : "Rotation",
@@ -185,7 +185,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 786.0, 124.0, 199.0, 199.0 ],
+					"patching_rect" : [ 792.0, 124.0, 199.0, 199.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 731.0, 123.0, 199.0, 199.0 ],
 					"varname" : "dial"
@@ -963,6 +963,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-6",
@@ -1057,7 +1058,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 372.0, 453.0, 102.0, 22.0 ],
+					"patching_rect" : [ 376.0, 453.0, 102.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1115,7 +1116,20 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 291.0, 301.0, 53.0, 22.0 ],
+									"text" : "route 20"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-9",
 									"maxclass" : "button",
@@ -1123,7 +1137,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 291.0, 295.0, 24.0, 24.0 ]
+									"patching_rect" : [ 291.0, 334.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -1147,7 +1161,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 291.0, 365.0, 30.0, 30.0 ]
+									"patching_rect" : [ 291.0, 404.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -1171,7 +1185,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 291.0, 327.0, 73.0, 22.0 ],
+									"patching_rect" : [ 291.0, 366.0, 73.0, 22.0 ],
 									"text" : "random 127"
 								}
 
@@ -1187,7 +1201,14 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
-									"source" : [ "obj-7", 2 ]
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-7", 0 ]
 								}
 
 							}

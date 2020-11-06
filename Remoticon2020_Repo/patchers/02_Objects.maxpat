@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 113.0, 133.0, 764.0, 676.0 ],
+		"rect" : [ 113.0, 133.0, 952.0, 773.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,38 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 3,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-3",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 145.5, 1629.0, 166.0, 40.0 ],
+					"presentation_linecount" : 2,
+					"text" : "left inlet: trigger message"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-12",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 481.0, 1629.0, 166.0, 40.0 ],
+					"text" : "right outlet: set message content"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"arrows" : 2,
 					"border" : 5.0,
@@ -97,8 +129,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 317.0, 1646.0, 150.0, 31.0 ],
-					"text" : "empty message"
+					"patching_rect" : [ 317.0, 1646.0, 157.0, 31.0 ],
+					"text" : "which message?"
 				}
 
 			}
@@ -317,12 +349,12 @@
 				"box" : 				{
 					"fontsize" : 16.0,
 					"id" : "obj-14",
-					"linecount" : 5,
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 141.5, 298.0, 526.0, 96.0 ],
-					"text" : "Generally, a Max patch is just a big \"pipeline\" of objects.\nData flows from one object's outlet into other objects' inlets. \n\nImportant thing to note -> You can send from one outlet to MANY inlets, and you can feed one inlet from MANY outlets",
+					"patching_rect" : [ 141.5, 298.0, 526.0, 114.0 ],
+					"text" : "Generally, a Max patch is just a big \"pipeline\" of objects.\nData flows from one object's outlet into other objects' inlets through \"patch cables\".\n\nImportant thing to note -> You can send from one outlet to MANY inlets, and you can feed one inlet from MANY outlets",
 					"textjustification" : 1
 				}
 

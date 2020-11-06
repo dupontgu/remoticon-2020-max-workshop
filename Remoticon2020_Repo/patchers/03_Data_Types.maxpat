@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 104.0, 895.0, 585.0 ],
+		"rect" : [ 883.0, 567.0, 895.0, 585.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,20 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-12",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 491.80316948890686, 917.5, 77.023617327213287, 25.0 ],
+					"text" : "click me"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"border" : 5.0,
 					"id" : "obj-45",
@@ -71,7 +85,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 198.125, 2090.0, 528.0, 42.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Pause: This is not a complete list of Max types.\nCheck the online documentation for more.",
 					"textjustification" : 1
 				}
@@ -110,8 +123,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 199.125, 1790.0, 526.0, 96.0 ],
-					"presentation_linecount" : 5,
-					"text" : "Special Type: Matrix\nAlso known as a \"multi-dimensional array\"\nMostly used for piping images/video around.\nUsually denoted by a \"~\"\nUses a slightly different dashed patch cable.",
+					"text" : "Special Type: Matrix\n\nMostly used for piping images/video around.\nUsually denoted by a \"~\"\nUses a slightly different dashed patch cable.",
 					"textjustification" : 1
 				}
 
@@ -149,8 +161,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 199.125, 1527.0, 526.0, 96.0 ],
-					"presentation_linecount" : 5,
-					"text" : "Special Type: Signal\nAlso known as a \"digitized signal\"\nMostly used for piping audio around.\nUsually denoted by a \"~\"\nUses a cool dashed patch cable.",
+					"text" : "Special Type: Signal\n\nMostly used for piping audio around.\nUsually denoted by a \"~\"\nUses a cool dashed patch cable.",
 					"textjustification" : 1
 				}
 
@@ -174,7 +185,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 384.125, 1171.0, 156.0, 22.0 ],
-					"presentation_linecount" : 3,
 					"text" : "0. This is a list of 9 things 0."
 				}
 
@@ -188,8 +198,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 199.125, 1070.0, 526.0, 60.0 ],
-					"presentation_linecount" : 3,
-					"text" : "Type: List\nAlso known as a \"list of data\"\nSome ordered combination of the above data types.",
+					"text" : "Type: List\n\nSome ordered combination of the above data types.",
 					"textjustification" : 1
 				}
 
@@ -226,8 +235,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 199.125, 1370.0, 526.0, 60.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 199.125, 1370.0, 528.0, 60.0 ],
 					"text" : "Pause: The types above are the \"standard\" data types in Max. These are what I'm using 90% of the time. Note that they all share the same grey patch cables.",
 					"textjustification" : 1
 				}
@@ -272,13 +280,12 @@
 				"box" : 				{
 					"fontsize" : 16.0,
 					"id" : "obj-13",
-					"linecount" : 6,
+					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 199.125, 757.0, 526.0, 114.0 ],
-					"presentation_linecount" : 6,
-					"text" : "Type: Bang\nAlso known as a \"generic event\"\nA moment in time with no particular data attached to it.\nEasy to think of as a \"trigger\" or \"button click\"\n\nBang has it's own special object, with doubles as a clickable button.",
+					"patching_rect" : [ 199.125, 757.0, 526.0, 132.0 ],
+					"text" : "Type: Bang\n\nA generic event\nA moment in time with no particular data attached to it.\nEasy to think of as a \"trigger\" or \"button click\"\n\nBang has it's own special object, with doubles as a clickable button.",
 					"textjustification" : 1
 				}
 
@@ -298,13 +305,12 @@
 				"box" : 				{
 					"fontsize" : 16.0,
 					"id" : "obj-11",
-					"linecount" : 3,
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 199.125, 559.0, 526.0, 60.0 ],
-					"presentation_linecount" : 3,
-					"text" : "Type: Float\nAlso known as an \"number with decimal point\"\n...-2.4...  -1.005...  0.0...  1...  2.6666667... etc.",
+					"patching_rect" : [ 199.125, 542.720929980278015, 526.0, 114.0 ],
+					"text" : "Type: Float\n\nAlso known as a \"number with decimal point\"\n-2.4, -1.005, 0.0, 1, 2.6666667 etc.\nThese are sometimes displayed with no 0 after the decimal point\n\"1.\" for example",
 					"textjustification" : 1
 				}
 
@@ -342,7 +348,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 199.125, 418.0, 526.0, 60.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Pause: Notice that the \"Message\" object outputs different data types depending on what you have entered!\nThis is both convenient and dangerous!!!",
 					"textjustification" : 1
 				}
@@ -354,7 +359,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 446.125, 682.0, 32.0, 22.0 ],
+					"patching_rect" : [ 446.125, 709.131783366203308, 32.0, 22.0 ],
 					"text" : "print"
 				}
 
@@ -366,7 +371,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 432.625, 642.0, 59.0, 22.0 ],
+					"patching_rect" : [ 442.702519536018372, 679.20930290222168, 59.0, 22.0 ],
 					"text" : "3.141593"
 				}
 
@@ -380,8 +385,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 199.125, 203.0, 526.0, 60.0 ],
-					"presentation_linecount" : 3,
-					"text" : "Type: Int\nAlso known as an \"whole integer\"\n...-2, -1, 0, 1, 2... etc.",
+					"text" : "Type: Int\nshort for \"integer\"\n...-2, -1, 0, 1, 2... etc.",
 					"textjustification" : 1
 				}
 
