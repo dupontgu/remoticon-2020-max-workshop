@@ -2,7 +2,7 @@
 	"name" : "Remoticon2020_Repo",
 	"version" : 1,
 	"creationdate" : 3685164722,
-	"modificationdate" : 3687458245,
+	"modificationdate" : 3687538032,
 	"viewrect" : [ 292.0, 820.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -46,6 +46,11 @@
 			}
 ,
 			"08_Working_Wtih_Numbers.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"09_Why_Max.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

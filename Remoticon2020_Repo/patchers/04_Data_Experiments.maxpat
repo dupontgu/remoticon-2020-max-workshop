@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 104.0, 897.0, 669.0 ],
+		"rect" : [ 59.0, 644.0, 897.0, 669.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -173,7 +173,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 414.25, 909.0, 406.75, 24.0 ],
+					"patching_rect" : [ 300.25, 897.0, 406.75, 24.0 ],
 					"text" : "Experiment: bang -> Message object (both inlets)",
 					"textjustification" : 1
 				}
@@ -277,7 +277,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 414.25, 660.0, 406.75, 24.0 ],
+					"patching_rect" : [ 312.25, 640.0, 406.75, 24.0 ],
 					"text" : "Experiment: bang -> Message object (right \"set\" inlet)",
 					"textjustification" : 1
 				}
@@ -381,7 +381,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 409.0, 415.0, 412.0, 24.0 ],
+					"patching_rect" : [ 312.25, 391.0, 412.0, 24.0 ],
 					"text" : "Experiment: bang -> Message object (left \"trigger\" inlet)",
 					"textjustification" : 1
 				}
@@ -499,7 +499,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 226.0, 64.0, 35.0 ],
+					"patching_rect" : [ 30.0, 226.0, 65.0, 35.0 ],
 					"text" : "print bang @popup 1"
 				}
 
