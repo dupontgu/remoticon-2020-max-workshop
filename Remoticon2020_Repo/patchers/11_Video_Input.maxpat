@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 104.0, 907.0, 688.0 ],
+		"rect" : [ 674.0, 139.0, 907.0, 688.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -50,7 +50,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 327.0, 293.948914000000002, 166.0, 69.0 ],
-					"presentation_linecount" : 3,
 					"text" : "How far the red \"blob\" is from the top of the screen (0.0 - 1.0)"
 				}
 
@@ -67,7 +66,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 154.0, 293.948914000000002, 166.0, 69.0 ],
-					"presentation_linecount" : 3,
 					"text" : "How far the red \"blob\" is from the left of the screen (0.0 - 1.0)"
 				}
 

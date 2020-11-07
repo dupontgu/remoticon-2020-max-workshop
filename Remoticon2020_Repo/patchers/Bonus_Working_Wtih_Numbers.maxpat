@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 554.0, 370.0, 1054.0, 765.0 ],
+		"rect" : [ 690.0, 135.0, 680.0, 734.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"border" : 5.0,
+					"id" : "obj-3",
+					"justification" : 1,
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 5.5, 482.0, 662.0, 51.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"arrows" : 1,
 					"border" : 5.0,
 					"id" : "obj-44",
@@ -47,7 +59,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 274.0, 3469.0, 75.0, 44.0 ]
+					"patching_rect" : [ 274.0, 3554.0, 75.0, 44.0 ]
 				}
 
 			}
@@ -59,8 +71,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 248.0, 3507.0, 262.5, 60.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 248.0, 3592.0, 269.0, 60.0 ],
 					"text" : "Note: third outlet emits a bang when the maxiumum is hit. Useful if you only care about the nth input",
 					"textjustification" : 1
 				}
@@ -74,8 +85,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 291.25, 3396.5, 391.5, 60.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 291.25, 3481.5, 391.5, 60.0 ],
 					"text" : "counter object: use bangs to keep count\nNote: 1 is minimum, 5 is maximum. It will restart once the maximum is hit.",
 					"textjustification" : 1
 				}
@@ -89,7 +99,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 248.0, 3452.5, 24.0, 24.0 ]
+					"patching_rect" : [ 248.0, 3537.5, 24.0, 24.0 ]
 				}
 
 			}
@@ -101,7 +111,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 169.0, 3450.0, 64.0, 29.0 ],
+					"patching_rect" : [ 169.0, 3535.0, 64.0, 29.0 ],
 					"text" : "2"
 				}
 
@@ -114,7 +124,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 169.0, 3361.0, 41.0, 41.0 ]
+					"patching_rect" : [ 169.0, 3446.0, 41.0, 41.0 ]
 				}
 
 			}
@@ -126,7 +136,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 169.0, 3412.0, 99.0, 29.0 ],
+					"patching_rect" : [ 169.0, 3497.0, 99.0, 29.0 ],
 					"text" : "counter 1 5"
 				}
 
@@ -139,7 +149,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 169.0, 3201.0, 382.0, 47.0 ]
+					"patching_rect" : [ 169.0, 3286.0, 382.0, 47.0 ]
 				}
 
 			}
@@ -150,7 +160,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 318.25, 3157.0, 391.5, 24.0 ],
+					"patching_rect" : [ 318.25, 3242.0, 391.5, 24.0 ],
 					"text" : "slide object: smooth output! great for noisy input.",
 					"textjustification" : 1
 				}
@@ -164,7 +174,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 169.0, 3099.0, 382.0, 47.0 ]
+					"patching_rect" : [ 169.0, 3184.0, 382.0, 47.0 ]
 				}
 
 			}
@@ -176,7 +186,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 169.0, 3157.0, 116.0, 29.0 ],
+					"patching_rect" : [ 169.0, 3242.0, 116.0, 29.0 ],
 					"text" : "slide 100 100"
 				}
 
@@ -189,8 +199,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 253.25, 2810.0, 467.5, 42.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 253.25, 2895.0, 467.5, 42.0 ],
 					"text" : "scale object: handle range conversions without having to do the math. Just provide input-low, input-high, output-low, output-high",
 					"textjustification" : 1
 				}
@@ -204,7 +213,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 177.5, 2940.0, 64.0, 29.0 ],
+					"patching_rect" : [ 177.5, 3025.0, 64.0, 29.0 ],
 					"text" : "1."
 				}
 
@@ -217,7 +226,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 169.25, 2748.0, 20.0, 140.0 ]
+					"patching_rect" : [ 169.25, 2833.0, 20.0, 140.0 ]
 				}
 
 			}
@@ -229,7 +238,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 169.25, 2899.0, 141.0, 29.0 ],
+					"patching_rect" : [ 169.25, 2984.0, 141.0, 29.0 ],
 					"text" : "scale 0 127 0. 1."
 				}
 
@@ -242,7 +251,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 339.5, 2695.0, 309.0, 29.0 ],
+					"patching_rect" : [ 339.5, 2780.0, 309.0, 29.0 ],
 					"text" : "Bonus Number Tools",
 					"textjustification" : 1
 				}
@@ -257,7 +266,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.0, 1496.0, 460.0, 67.0 ],
+					"patching_rect" : [ 107.0, 1581.0, 460.0, 67.0 ],
 					"text" : "My advice: Pick a range and stick with it. Try to get each \"module\" within your patch to use your range for both input and output.",
 					"textjustification" : 1
 				}
@@ -269,7 +278,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.5, 2358.0, 256.0, 20.0 ],
+					"patching_rect" : [ 39.5, 2443.0, 256.0, 20.0 ],
 					"text" : "Input side (all numbers in range 0.0-1.0)"
 				}
 
@@ -280,7 +289,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.5, 2310.0, 256.0, 20.0 ],
+					"patching_rect" : [ 39.5, 2395.0, 256.0, 20.0 ],
 					"text" : "Output side (all numbers in range 0.0-1.0)"
 				}
 
@@ -292,7 +301,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.5, 2339.0, 895.0, 23.0 ]
+					"patching_rect" : [ 39.5, 2424.0, 895.0, 23.0 ]
 				}
 
 			}
@@ -304,7 +313,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 490.25, 2205.0, 183.0, 33.0 ],
+					"patching_rect" : [ 490.25, 2290.0, 183.0, 33.0 ],
 					"text" : "try splicing one of these into the red patch cable!"
 				}
 
@@ -316,7 +325,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 450.75, 2210.5, 29.0, 22.0 ],
+					"patching_rect" : [ 450.75, 2295.5, 29.0, 22.0 ],
 					"text" : "sqrt"
 				}
 
@@ -328,7 +337,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 401.5, 2210.5, 41.0, 22.0 ],
+					"patching_rect" : [ 401.5, 2295.5, 41.0, 22.0 ],
 					"text" : "pow 2"
 				}
 
@@ -340,7 +349,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 440.75, 2408.0, 276.0, 33.0 ],
+					"patching_rect" : [ 440.75, 2493.0, 276.0, 33.0 ],
 					"text" : "convert elements back to range 0-127, because that's what this table accepts"
 				}
 
@@ -352,7 +361,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 374.5, 2253.0, 150.0, 33.0 ],
+					"patching_rect" : [ 374.5, 2338.0, 150.0, 33.0 ],
 					"text" : "Pack into list of two elements (x, y)"
 				}
 
@@ -365,7 +374,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 371.5, 2050.0, 89.0, 22.0 ]
+					"patching_rect" : [ 371.5, 2135.0, 89.0, 22.0 ]
 				}
 
 			}
@@ -377,7 +386,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 401.5, 2023.0, 59.0, 20.0 ]
+					"patching_rect" : [ 401.5, 2108.0, 59.0, 20.0 ]
 				}
 
 			}
@@ -388,7 +397,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 374.5, 2138.5, 150.0, 47.0 ],
+					"patching_rect" : [ 374.5, 2223.5, 150.0, 47.0 ],
 					"text" : "This is where we convert values from 0-127 to 0.0-1.0"
 				}
 
@@ -401,7 +410,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 327.5, 1974.0, 40.0, 40.0 ]
+					"patching_rect" : [ 327.5, 2059.0, 40.0, 40.0 ]
 				}
 
 			}
@@ -412,7 +421,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 463.5, 2012.0, 150.0, 60.0 ],
+					"patching_rect" : [ 463.5, 2097.0, 151.0, 60.0 ],
 					"text" : "outputs every number between 0 and 127 over a duration of 3000 mililseconds."
 				}
 
@@ -425,7 +434,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 107.0, 2399.0, 43.0, 26.0 ],
+					"patching_rect" : [ 107.0, 2484.0, 43.0, 26.0 ],
 					"text" : "clear"
 				}
 
@@ -437,7 +446,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 327.5, 2021.0, 72.0, 22.0 ],
+					"patching_rect" : [ 327.5, 2106.0, 72.0, 22.0 ],
 					"text" : "0, 127 3000"
 				}
 
@@ -449,7 +458,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 327.5, 2050.0, 40.0, 22.0 ],
+					"patching_rect" : [ 327.5, 2135.0, 40.0, 22.0 ],
 					"text" : "line"
 				}
 
@@ -463,7 +472,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 273.5, 2459.0, 458.0, 134.0 ],
+					"patching_rect" : [ 273.5, 2544.0, 458.0, 134.0 ],
 					"range" : 128,
 					"size" : 128,
 					"table_data" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
@@ -477,7 +486,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 306.5, 2414.0, 131.0, 22.0 ],
+					"patching_rect" : [ 306.5, 2499.0, 131.0, 22.0 ],
 					"text" : "vexpr round($f1 * 127.)"
 				}
 
@@ -489,7 +498,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 327.5, 2151.0, 39.0, 22.0 ],
+					"patching_rect" : [ 327.5, 2236.0, 39.0, 22.0 ],
 					"text" : "/ 127."
 				}
 
@@ -501,7 +510,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 306.5, 2258.5, 61.0, 22.0 ],
+					"patching_rect" : [ 306.5, 2343.5, 61.0, 22.0 ],
 					"text" : "pack 0. 0."
 				}
 
@@ -514,7 +523,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 327.5, 2087.5, 192.5, 39.0 ]
+					"patching_rect" : [ 327.5, 2172.5, 192.5, 39.0 ]
 				}
 
 			}
@@ -526,7 +535,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 136.5, 1732.5, 425.0, 203.0 ],
+					"patching_rect" : [ 136.5, 1817.5, 425.0, 203.0 ],
 					"text" : "Advantages:\n\n1. Easier to reason about/perform mental math. The range is \"all the way off\" to \"all the way on\".\n\n2. Multiply by 100 and you have a percentage!\n\n3. No loss of precision, since you convert each value into its most precise form before sending it out.\n\n4. Can easily scale values in more interesting ways."
 				}
 
@@ -539,7 +548,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.0, 1607.5, 467.5, 96.0 ],
+					"patching_rect" : [ 107.0, 1692.5, 467.5, 96.0 ],
 					"text" : "\nIt's tempting to choose 0-127 or 0-255 as your default range. Many protocols/objects use these!\n\nBut consider instead the range 0.0-1.0 (Note the decimal points)",
 					"textjustification" : 1
 				}
@@ -552,7 +561,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 326.0, 1378.0, 29.5, 22.0 ],
+					"patching_rect" : [ 326.0, 1463.0, 29.5, 22.0 ],
 					"text" : "* 2"
 				}
 
@@ -564,7 +573,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 241.0, 1378.0, 29.5, 22.0 ],
+					"patching_rect" : [ 241.0, 1463.0, 29.5, 22.0 ],
 					"text" : "* 2"
 				}
 
@@ -576,7 +585,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 151.0, 1378.0, 29.5, 22.0 ],
+					"patching_rect" : [ 151.0, 1463.0, 29.5, 22.0 ],
 					"text" : "* 2"
 				}
 
@@ -589,7 +598,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 104.5, 1106.5, 422.0, 60.0 ],
+					"patching_rect" : [ 104.5, 1191.5, 422.0, 60.0 ],
 					"text" : "Possible solution: do the math yourself!\nIf we simply multiply the output of each slider by 2, the effective range becomes 0-254 (close enough)",
 					"textjustification" : 1
 				}
@@ -604,7 +613,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 400.5, 1269.0, 172.0, 108.0 ],
+					"patching_rect" : [ 400.5, 1354.0, 172.0, 108.0 ],
 					"saturation" : 73
 				}
 
@@ -616,7 +625,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 216.5, 1417.0, 58.0, 22.0 ],
+					"patching_rect" : [ 216.5, 1502.0, 58.0, 22.0 ],
 					"text" : "pak 0 0 0"
 				}
 
@@ -630,7 +639,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 326.0, 1223.0, 20.0, 140.0 ]
+					"patching_rect" : [ 326.0, 1308.0, 20.0, 140.0 ]
 				}
 
 			}
@@ -643,7 +652,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 241.0, 1223.0, 20.0, 140.0 ]
+					"patching_rect" : [ 241.0, 1308.0, 20.0, 140.0 ]
 				}
 
 			}
@@ -656,7 +665,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 151.0, 1223.0, 20.0, 140.0 ]
+					"patching_rect" : [ 151.0, 1308.0, 20.0, 140.0 ]
 				}
 
 			}
@@ -667,7 +676,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 274.5, 683.0, 50.0, 22.0 ],
+					"patching_rect" : [ 274.5, 768.0, 50.0, 22.0 ],
 					"text" : "0"
 				}
 
@@ -680,7 +689,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 305.5, 535.0, 20.0, 140.0 ]
+					"patching_rect" : [ 305.5, 620.0, 20.0, 140.0 ]
 				}
 
 			}
@@ -693,7 +702,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 404.5, 868.0, 172.0, 108.0 ],
+					"patching_rect" : [ 404.5, 953.0, 172.0, 108.0 ],
 					"saturation" : 136
 				}
 
@@ -705,7 +714,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 221.5, 1002.0, 58.0, 22.0 ],
+					"patching_rect" : [ 221.5, 1087.0, 58.0, 22.0 ],
 					"text" : "pak 0 0 0"
 				}
 
@@ -719,7 +728,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 326.0, 852.0, 20.0, 140.0 ]
+					"patching_rect" : [ 326.0, 937.0, 20.0, 140.0 ]
 				}
 
 			}
@@ -732,7 +741,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 241.0, 852.0, 20.0, 140.0 ]
+					"patching_rect" : [ 241.0, 937.0, 20.0, 140.0 ]
 				}
 
 			}
@@ -744,7 +753,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 104.5, 723.5, 422.0, 96.0 ],
+					"patching_rect" : [ 104.5, 808.5, 422.0, 96.0 ],
 					"text" : "But color values (red, green, and blue components) have a range of 0-255\n\nNote that you can't hit every color with default sliders! Brightest colors are unreachable.",
 					"textjustification" : 1
 				}
@@ -759,7 +768,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 151.0, 851.0, 20.0, 140.0 ]
+					"patching_rect" : [ 151.0, 936.0, 20.0, 140.0 ]
 				}
 
 			}
@@ -771,7 +780,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 104.5, 474.5, 422.0, 42.0 ],
+					"patching_rect" : [ 104.5, 559.5, 422.0, 42.0 ],
 					"text" : "Example:\nSlider defaults to an ouput range of 0-127",
 					"textjustification" : 1
 				}
@@ -801,7 +810,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 113.5, 213.5, 422.0, 114.0 ],
-					"presentation_linecount" : 6,
 					"text" : "Things represented by numbers that may be new to you:\n\n1. Color\n2. Millisecond time\n3. Controller values (including keyboard input!)\n4. Audio / other signals"
 				}
 
@@ -866,7 +874,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
-					"midpoints" : [ 231.0, 1036.0, 390.0, 1036.0, 390.0, 862.0, 414.0, 862.0 ],
+					"midpoints" : [ 231.0, 1121.0, 390.0, 1121.0, 390.0, 947.0, 414.0, 947.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -895,7 +903,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
-					"midpoints" : [ 226.0, 1447.0, 386.0, 1447.0, 386.0, 1263.0, 410.0, 1263.0 ],
+					"midpoints" : [ 226.0, 1532.0, 386.0, 1532.0, 386.0, 1348.0, 410.0, 1348.0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -1023,14 +1031,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"parameterbanks" : 			{
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}

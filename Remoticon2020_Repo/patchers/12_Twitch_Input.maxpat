@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 104.0, 925.0, 594.0 ],
+		"rect" : [ 775.0, 206.0, 791.0, 621.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 365.0, 75.809522867202759, 347.28571343421936, 20.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Full instructions: https://github.com/dupontgu/twitch-plays-max"
 				}
 
@@ -213,8 +212,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,

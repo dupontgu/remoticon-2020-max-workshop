@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1003.0, 787.0 ],
+		"rect" : [ 622.0, 112.0, 1140.0, 809.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -51,14 +51,14 @@
 					"restore" : 					{
 						"button" : [ 0.0 ],
 						"dial" : [ 64 ],
-						"dial[1]" : [ 29 ],
-						"dial[2]" : [ 101 ],
+						"dial[1]" : [ 109 ],
+						"dial[2]" : [ 104 ],
 						"textbutton" : [ -1 ],
 						"toggle" : [ 1 ]
 					}
 ,
 					"text" : "autopattr @autoname 1",
-					"varname" : "u201001109"
+					"varname" : "u874002262"
 				}
 
 			}
@@ -963,7 +963,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-6",
@@ -1116,7 +1115,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-12",

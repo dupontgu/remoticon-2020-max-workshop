@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 644.0, 897.0, 669.0 ],
+		"rect" : [ 706.0, 140.0, 849.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,40 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 24.0,
+					"id" : "obj-3",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 18.5, 417.0, 735.0, 60.0 ],
+					"presentation_linecount" : 2,
+					"text" : "Experiment! Try guessing what will be printed before interacting with each example.",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"border" : 5.0,
+					"id" : "obj-2",
+					"justification" : 1,
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 6.0, 310.0, 760.0, 57.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-56",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 189.25, 1119.0, 47.0, 22.0 ],
+					"patching_rect" : [ 185.25, 1285.0, 47.0, 22.0 ],
 					"text" : "symbol"
 				}
 
@@ -58,7 +86,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 189.25, 1162.0, 39.0, 39.0 ]
+					"patching_rect" : [ 185.25, 1328.0, 39.0, 39.0 ]
 				}
 
 			}
@@ -69,7 +97,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 425.25, 1181.0, 406.75, 24.0 ],
+					"patching_rect" : [ 296.25, 1343.0, 341.75, 24.0 ],
 					"text" : "Experiment: symbol -> bang ",
 					"textjustification" : 1
 				}
@@ -81,7 +109,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 347.5, 1257.0, 53.0, 22.0 ],
+					"patching_rect" : [ 343.5, 1423.0, 53.0, 22.0 ],
 					"text" : "print list:"
 				}
 
@@ -92,7 +120,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 268.5, 1257.0, 77.0, 22.0 ],
+					"patching_rect" : [ 264.5, 1423.0, 77.0, 22.0 ],
 					"text" : "print symbol:"
 				}
 
@@ -103,7 +131,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 85.5, 1257.0, 65.0, 22.0 ],
+					"patching_rect" : [ 81.5, 1423.0, 65.0, 22.0 ],
 					"text" : "print bang:"
 				}
 
@@ -114,7 +142,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 152.5, 1257.0, 51.0, 22.0 ],
+					"patching_rect" : [ 148.5, 1423.0, 51.0, 22.0 ],
 					"text" : "print int:"
 				}
 
@@ -125,7 +153,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 205.5, 1257.0, 61.0, 22.0 ],
+					"patching_rect" : [ 201.5, 1423.0, 61.0, 22.0 ],
 					"text" : "print float:"
 				}
 
@@ -137,7 +165,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 6,
 					"outlettype" : [ "signal", "bang", "int", "float", "", "list" ],
-					"patching_rect" : [ 85.5, 1233.0, 315.5, 22.0 ],
+					"patching_rect" : [ 81.5, 1399.0, 315.5, 22.0 ],
 					"text" : "typeroute~"
 				}
 
@@ -149,8 +177,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 185.25, 909.0, 47.0, 22.0 ],
-					"text" : "bang"
+					"patching_rect" : [ 181.25, 1075.0, 47.0, 22.0 ],
+					"text" : "symbol"
 				}
 
 			}
@@ -162,7 +190,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 189.25, 846.0, 39.0, 39.0 ]
+					"patching_rect" : [ 185.25, 1012.0, 39.0, 39.0 ]
 				}
 
 			}
@@ -173,7 +201,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 300.25, 897.0, 406.75, 24.0 ],
+					"patching_rect" : [ 296.25, 1063.0, 406.75, 24.0 ],
 					"text" : "Experiment: bang -> Message object (both inlets)",
 					"textjustification" : 1
 				}
@@ -185,7 +213,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 336.5, 985.0, 53.0, 22.0 ],
+					"patching_rect" : [ 332.5, 1151.0, 53.0, 22.0 ],
 					"text" : "print list:"
 				}
 
@@ -196,7 +224,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 257.5, 985.0, 77.0, 22.0 ],
+					"patching_rect" : [ 253.5, 1151.0, 77.0, 22.0 ],
 					"text" : "print symbol:"
 				}
 
@@ -207,7 +235,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 74.5, 985.0, 65.0, 22.0 ],
+					"patching_rect" : [ 70.5, 1151.0, 65.0, 22.0 ],
 					"text" : "print bang:"
 				}
 
@@ -218,7 +246,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 141.5, 985.0, 51.0, 22.0 ],
+					"patching_rect" : [ 137.5, 1151.0, 51.0, 22.0 ],
 					"text" : "print int:"
 				}
 
@@ -229,7 +257,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 194.5, 985.0, 61.0, 22.0 ],
+					"patching_rect" : [ 190.5, 1151.0, 61.0, 22.0 ],
 					"text" : "print float:"
 				}
 
@@ -241,7 +269,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 6,
 					"outlettype" : [ "signal", "bang", "int", "float", "", "list" ],
-					"patching_rect" : [ 74.5, 961.0, 315.5, 22.0 ],
+					"patching_rect" : [ 70.5, 1127.0, 315.5, 22.0 ],
 					"text" : "typeroute~"
 				}
 
@@ -253,8 +281,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 185.25, 660.0, 47.0, 22.0 ],
-					"text" : "bang"
+					"patching_rect" : [ 181.25, 826.0, 47.0, 22.0 ],
+					"text" : "symbol"
 				}
 
 			}
@@ -266,7 +294,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 189.25, 597.0, 39.0, 39.0 ]
+					"patching_rect" : [ 185.25, 763.0, 39.0, 39.0 ]
 				}
 
 			}
@@ -277,7 +305,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 312.25, 640.0, 406.75, 24.0 ],
+					"patching_rect" : [ 308.25, 806.0, 406.75, 24.0 ],
 					"text" : "Experiment: bang -> Message object (right \"set\" inlet)",
 					"textjustification" : 1
 				}
@@ -289,7 +317,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 336.5, 736.0, 53.0, 22.0 ],
+					"patching_rect" : [ 332.5, 902.0, 53.0, 22.0 ],
 					"text" : "print list:"
 				}
 
@@ -300,7 +328,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 257.5, 736.0, 77.0, 22.0 ],
+					"patching_rect" : [ 253.5, 902.0, 77.0, 22.0 ],
 					"text" : "print symbol:"
 				}
 
@@ -311,7 +339,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 74.5, 736.0, 65.0, 22.0 ],
+					"patching_rect" : [ 70.5, 902.0, 65.0, 22.0 ],
 					"text" : "print bang:"
 				}
 
@@ -322,7 +350,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 141.5, 736.0, 51.0, 22.0 ],
+					"patching_rect" : [ 137.5, 902.0, 51.0, 22.0 ],
 					"text" : "print int:"
 				}
 
@@ -333,7 +361,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 194.5, 736.0, 61.0, 22.0 ],
+					"patching_rect" : [ 190.5, 902.0, 61.0, 22.0 ],
 					"text" : "print float:"
 				}
 
@@ -345,7 +373,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 6,
 					"outlettype" : [ "signal", "bang", "int", "float", "", "list" ],
-					"patching_rect" : [ 74.5, 712.0, 315.5, 22.0 ],
+					"patching_rect" : [ 70.5, 878.0, 315.5, 22.0 ],
 					"text" : "typeroute~"
 				}
 
@@ -357,7 +385,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 415.0, 47.0, 22.0 ],
+					"patching_rect" : [ 176.0, 581.0, 47.0, 22.0 ],
 					"text" : "symbol"
 				}
 
@@ -370,7 +398,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 184.0, 352.0, 39.0, 39.0 ]
+					"patching_rect" : [ 180.0, 518.0, 39.0, 39.0 ]
 				}
 
 			}
@@ -381,7 +409,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 312.25, 391.0, 412.0, 24.0 ],
+					"patching_rect" : [ 308.25, 557.0, 412.0, 24.0 ],
 					"text" : "Experiment: bang -> Message object (left \"trigger\" inlet)",
 					"textjustification" : 1
 				}
@@ -393,7 +421,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 331.25, 491.0, 53.0, 22.0 ],
+					"patching_rect" : [ 327.25, 657.0, 53.0, 22.0 ],
 					"text" : "print list:"
 				}
 
@@ -404,7 +432,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 252.25, 491.0, 77.0, 22.0 ],
+					"patching_rect" : [ 248.25, 657.0, 77.0, 22.0 ],
 					"text" : "print symbol:"
 				}
 
@@ -415,7 +443,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 69.25, 491.0, 65.0, 22.0 ],
+					"patching_rect" : [ 65.25, 657.0, 65.0, 22.0 ],
 					"text" : "print bang:"
 				}
 
@@ -426,7 +454,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 136.25, 491.0, 51.0, 22.0 ],
+					"patching_rect" : [ 132.25, 657.0, 51.0, 22.0 ],
 					"text" : "print int:"
 				}
 
@@ -437,7 +465,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.25, 491.0, 61.0, 22.0 ],
+					"patching_rect" : [ 185.25, 657.0, 61.0, 22.0 ],
 					"text" : "print float:"
 				}
 
@@ -449,7 +477,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 6,
 					"outlettype" : [ "signal", "bang", "int", "float", "", "list" ],
-					"patching_rect" : [ 69.25, 467.0, 315.5, 22.0 ],
+					"patching_rect" : [ 65.25, 633.0, 315.5, 22.0 ],
 					"text" : "typeroute~"
 				}
 
@@ -462,7 +490,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 486.0, 111.0, 346.0, 60.0 ],
+					"patching_rect" : [ 485.0, 105.0, 346.0, 60.0 ],
 					"text" : "Demo: typeroute~ object\nTakes ANY data via its inlet\nRoutes that data to type-specific outlet!",
 					"textjustification" : 1
 				}

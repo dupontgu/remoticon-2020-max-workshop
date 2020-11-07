@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 892.0, 787.0 ],
+		"rect" : [ 652.0, 132.0, 723.0, 792.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,17 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "ezadc~",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 47.0, 537.0, 45.0, 45.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
@@ -47,7 +58,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 384.0, 438.0, 166.0, 25.0 ],
+					"patching_rect" : [ 358.0, 412.0, 166.0, 25.0 ],
 					"text" : "Raw signal (as number)"
 				}
 
@@ -60,7 +71,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 352.0, 438.0, 20.0, 140.0 ]
+					"patching_rect" : [ 326.0, 412.0, 20.0, 140.0 ]
 				}
 
 			}
@@ -74,7 +85,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 117.0, 727.0, 166.0, 40.0 ],
+					"patching_rect" : [ 91.0, 701.0, 166.0, 40.0 ],
 					"text" : "output time elapsed between last 2 bangs"
 				}
 
@@ -87,7 +98,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 195.0, 623.0, 282.0, 60.0 ],
+					"patching_rect" : [ 169.0, 597.0, 282.0, 60.0 ],
 					"text" : "onset_detector subpatcher: \nDetect transients (\"spikes\") in audio,\noutputs a bang for each. Try clapping!"
 				}
 
@@ -99,7 +110,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 73.0, 779.0, 50.0, 22.0 ],
+					"patching_rect" : [ 47.0, 753.0, 50.0, 22.0 ],
 					"text" : "1173."
 				}
 
@@ -111,7 +122,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "" ],
-					"patching_rect" : [ 73.0, 736.0, 35.0, 22.0 ],
+					"patching_rect" : [ 47.0, 710.0, 35.0, 22.0 ],
 					"text" : "timer"
 				}
 
@@ -124,7 +135,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 73.0, 687.0, 24.0, 24.0 ]
+					"patching_rect" : [ 47.0, 661.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -924,7 +935,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 73.0, 642.0, 98.0, 22.0 ],
+					"patching_rect" : [ 47.0, 616.0, 98.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -946,7 +957,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 111.0, 405.5, 166.0, 25.0 ],
+					"patching_rect" : [ 85.0, 379.5, 166.0, 25.0 ],
 					"text" : "Smooth out signal a bit"
 				}
 
@@ -962,7 +973,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.0, 337.0, 166.0, 40.0 ],
+					"patching_rect" : [ 154.0, 311.0, 166.0, 40.0 ],
 					"text" : "convert back to slider range of 0-127"
 				}
 
@@ -977,7 +988,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 109.0, 184.5, 166.0, 54.0 ],
+					"patching_rect" : [ 83.0, 158.5, 166.0, 54.0 ],
 					"text" : "meter~ object: \ndisplay amplitude of an audio signal."
 				}
 
@@ -990,7 +1001,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 448.0, 260.0, 282.0, 132.0 ],
+					"patching_rect" : [ 422.0, 234.0, 282.0, 132.0 ],
 					"text" : "peakamp~ object: \nConvert audio amplitude into a plain old number between 0.0 and 1.0\n\nNote: number argument (20) represents how often (in milliseconds) the output should be updated."
 				}
 
@@ -1003,7 +1014,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 134.0, 51.0, 370.0, 42.0 ],
+					"patching_rect" : [ 108.0, 25.0, 370.0, 42.0 ],
 					"text" : "ezadc~ object: get audio input from microphone!\nNote: configure in Options -> Audio Status"
 				}
 
@@ -1015,7 +1026,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 279.0, 407.0, 67.0, 22.0 ],
+					"patching_rect" : [ 253.0, 381.0, 67.0, 22.0 ],
 					"text" : "slide 10 10"
 				}
 
@@ -1027,7 +1038,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 348.0, 346.0, 40.0, 22.0 ],
+					"patching_rect" : [ 322.0, 320.0, 40.0, 22.0 ],
 					"text" : "* 127."
 				}
 
@@ -1040,7 +1051,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 279.0, 438.0, 20.0, 140.0 ]
+					"patching_rect" : [ 253.0, 412.0, 20.0, 140.0 ]
 				}
 
 			}
@@ -1051,7 +1062,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 348.0, 266.0, 82.0, 22.0 ],
+					"patching_rect" : [ 322.0, 240.0, 82.0, 22.0 ],
 					"text" : "peakamp~ 20"
 				}
 
@@ -1063,7 +1074,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 74.0, 189.0, 33.0, 176.0 ]
+					"patching_rect" : [ 48.0, 163.0, 33.0, 176.0 ]
 				}
 
 			}
@@ -1074,7 +1085,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 74.0, 51.0, 45.0, 45.0 ]
+					"patching_rect" : [ 48.0, 25.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -1082,7 +1093,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -1090,7 +1101,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 83.5, 171.0, 357.5, 171.0 ],
+					"midpoints" : [ 57.5, 145.0, 331.5, 145.0 ],
 					"order" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
@@ -1099,9 +1110,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 83.5, 174.0, 60.0, 174.0, 60.0, 627.0, 82.5, 627.0 ],
-					"order" : 1,
-					"source" : [ "obj-1", 0 ]
+					"source" : [ "obj-17", 0 ]
 				}
 
 			}

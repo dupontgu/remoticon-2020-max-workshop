@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 103.0, 640.0, 480.0 ],
+		"rect" : [ 59.0, 103.0, 798.0, 774.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,55 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-15",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 112.0, 380.0, 420.0, 51.0 ],
+					"presentation_linecount" : 2,
+					"text" : "Use maxurl to make HTTP requests.\nHook up to IFTTT for quick IOT integrations!",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "dict.view",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 216.0, 551.0, 296.0, 145.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 216.0, 455.0, 212.0, 22.0 ],
+					"text" : "get https://httpstat.us/200?sleep=1000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "dictionary", "" ],
+					"patching_rect" : [ 216.0, 503.0, 45.0, 22.0 ],
+					"text" : "maxurl"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontsize" : 20.0,
 					"id" : "obj-8",
@@ -71,7 +120,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 346.0, 322.0, 149.0, 22.0 ]
+					"patching_rect" : [ 351.0, 255.0, 149.0, 22.0 ],
+					"text" : "Hello from wherever!"
 				}
 
 			}
@@ -83,8 +133,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 336.0, 252.0, 154.0, 31.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 341.0, 185.0, 154.0, 31.0 ],
 					"text" : "mxj net.maxhole"
 				}
 
@@ -105,8 +154,22 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}

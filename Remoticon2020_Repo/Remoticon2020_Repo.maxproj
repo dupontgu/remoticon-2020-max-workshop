@@ -2,15 +2,25 @@
 	"name" : "Remoticon2020_Repo",
 	"version" : 1,
 	"creationdate" : 3685164722,
-	"modificationdate" : 3687538032,
-	"viewrect" : [ 292.0, 820.0, 300.0, 500.0 ],
+	"modificationdate" : 3687607834,
+	"viewrect" : [ 227.0, 157.0, 393.0, 564.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
+			"00_Hello.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"01_Intro.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"06_Why_Max.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -35,22 +45,7 @@
 				"local" : 1
 			}
 ,
-			"06_User_Interface_Cont.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"07_Timing.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"08_Working_Wtih_Numbers.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"09_Why_Max.maxpat" : 			{
+			"07_Playground.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -80,15 +75,24 @@
 				"local" : 1
 			}
 ,
-			"15_Arduino_Output.maxpat" : 			{
+			"15_Midi_Arduino_IO.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"XX_Scratch.maxpat" : 			{
+			"Bonus_Working_Wtih_Numbers.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"Bonus_Shift_Register.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+
+		}
+,
+		"media" : 		{
 
 		}
 ,

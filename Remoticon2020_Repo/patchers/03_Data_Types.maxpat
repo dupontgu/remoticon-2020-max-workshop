@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 883.0, 567.0, 895.0, 585.0 ],
+		"rect" : [ 664.0, 200.0, 1048.0, 662.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -184,8 +184,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 384.125, 1171.0, 156.0, 22.0 ],
-					"text" : "0. This is a list of 9 things 0."
+					"patching_rect" : [ 384.125, 1171.0, 173.0, 22.0 ],
+					"text" : "0. This is a list of 9 things bang"
 				}
 
 			}
@@ -247,7 +247,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 446.125, 318.0, 32.0, 22.0 ],
+					"patching_rect" : [ 447.125, 336.0, 32.0, 22.0 ],
 					"text" : "print"
 				}
 
@@ -259,7 +259,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 447.375, 278.0, 29.5, 22.0 ],
+					"patching_rect" : [ 448.375, 296.0, 29.5, 22.0 ],
 					"text" : "99"
 				}
 
@@ -380,12 +380,12 @@
 				"box" : 				{
 					"fontsize" : 16.0,
 					"id" : "obj-5",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 199.125, 203.0, 526.0, 60.0 ],
-					"text" : "Type: Int\nshort for \"integer\"\n...-2, -1, 0, 1, 2... etc.",
+					"patching_rect" : [ 208.125, 212.0, 526.0, 78.0 ],
+					"text" : "Type: Int\n\nshort for \"integer\"\n...-2, -1, 0, 1, 2... etc.",
 					"textjustification" : 1
 				}
 
@@ -396,7 +396,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 446.125, 142.0, 32.0, 22.0 ],
+					"patching_rect" : [ 438.625, 141.0, 32.0, 22.0 ],
 					"text" : "print"
 				}
 
@@ -417,12 +417,12 @@
 				"box" : 				{
 					"fontsize" : 16.0,
 					"id" : "obj-28",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 199.125, 20.0, 526.0, 60.0 ],
-					"text" : "Type: Symbol\nAlso known as a \"word\"\nGeneric text with no spaces.",
+					"patching_rect" : [ 199.125, 20.0, 527.0, 78.0 ],
+					"text" : "Type: Symbol\n\nAlso known as a \"word\"\nGeneric text with no spaces.",
 					"textjustification" : 1
 				}
 
